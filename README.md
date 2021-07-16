@@ -30,6 +30,7 @@ Here N = 9
 Future Scope:
 	To train a model which will recognize digits and empty spaces from image of Sudoku so that input will be given as image and output will be filled image.
 	The time complexity of the solution is exponential. Its better to search for polynomial complexity solution at least.
+	Extend the algorithm to suit for large values of N.
 Reference: GeeksforGeeks
 
 Conclusion:
