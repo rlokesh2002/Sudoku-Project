@@ -87,7 +87,7 @@ void fillSudoku(Mat& img, Rect border,const vvs vec)
 		for (unsigned j = 0; j < 9; j++)
 		{
 			/*putText function puts the digit in every box*/
-			if (vec[i][j].second == 0)	putText(img, to_string(vec[i][j].first), Point(xcoord + j * horzgap, ycoord + i * vertgap), FONT_HERSHEY_PLAIN, 3, initcolor, 3);
+			if (vec[i][j].second == 1)	putText(img, to_string(vec[i][j].first), Point(xcoord + j * horzgap, ycoord + i * vertgap), FONT_HERSHEY_PLAIN, 3, initcolor, 3);
 			else
 			{
 				putText(img, to_string(vec[i][j].first), Point(xcoord + j * horzgap, ycoord + i * vertgap), FONT_HERSHEY_PLAIN, 3, rescolor, 3);
